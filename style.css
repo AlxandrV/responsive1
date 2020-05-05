@@ -72,7 +72,7 @@ main > div{
 }
 
 div > div{
-    width: 23.1%;
+    width: 16.875rem;
     height: 18.125rem;
     box-shadow: 0 7px 27px rgba(0, 0, 0, .1);
     border-radius: 10px;
@@ -84,4 +84,20 @@ div > p{
 
 h3{
     font-size: 1.25rem;
+}
+
+/* Media queries tablets ----------------------------------------------------------------------------------*/
+@media all and (max-width: 767.98px){
+    main > p{
+        width: 60%;
+    }
+
+    main > div{
+        width: 73%;
+        flex-wrap: wrap;
+    }
+
+    div > div{
+        margin-bottom: 3%;
+    }
 }
